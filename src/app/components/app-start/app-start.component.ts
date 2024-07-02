@@ -12,13 +12,14 @@ import { BlogComponent } from "../blog/blog.component";
 import { TestiminialComponent } from "../testiminial/testiminial.component";
 import { ContactComponent } from "../contact/contact.component";
 import { PreloaderComponent } from "../preloader/preloader.component";
+import { CustomCursorComponent } from "../custom-cursor/custom-cursor.component";
 
 @Component({
     selector: 'app-app-start',
     standalone: true,
     templateUrl: './app-start.component.html',
     styleUrl: './app-start.component.css',
-    imports: [BarStartMovileComponent, SilebarProfileStartComponent, NavPaginationComponent, HeroIntroductionComponent, AboutComponent, MeServicesComponent, SkillsComponent, MyResumeComponent, PortafolioComponent, BlogComponent, TestiminialComponent, ContactComponent, PreloaderComponent]
+    imports: [BarStartMovileComponent, SilebarProfileStartComponent, NavPaginationComponent, HeroIntroductionComponent, AboutComponent, MeServicesComponent, SkillsComponent, MyResumeComponent, PortafolioComponent, BlogComponent, TestiminialComponent, ContactComponent, PreloaderComponent, CustomCursorComponent]
 })
 export class AppStartComponent {
 

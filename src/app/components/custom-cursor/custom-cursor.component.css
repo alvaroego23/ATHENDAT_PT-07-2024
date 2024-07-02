@@ -1,0 +1,11 @@
+/*------------------------------------------------------------------
+[7. Custom Cursor Style]
+------------------------------------------------------------------*/
+.custom_cursor_one {
+    @apply max-md:hidden z-[99999];
+    transition: all 100ms ease-out;
+}
+.custom_cursor_two {
+    @apply max-md:hidden z-[99999];
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+}

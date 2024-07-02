@@ -119,41 +119,8 @@ Support	      :	    themearray@gmail.com
         @apply absolute inset-0 z-[1] content-[''];
     }    
 }
-/*------------------------------------------------------------------
-[6. Preloader]
-------------------------------------------------------------------*/
-#preloader {
-    @apply fixed inset-0 z-[99999] flex before:content-[''] before:absolute before:left-0 before:top-0 before:w-1/2 before:h-full before:z-[-1] before:bg-snowWhite dark:before:bg-power__black before:transition-all before:ease-in-out before:duration-300 after:content-[''] after:absolute after:left-auto after:right-0 after:top-0 after:w-1/2 after:h-full after:z-[-1] after:bg-snowWhite dark:after:bg-power__black after:transition-all after:ease-in-out after:duration-300;
-}
-#preloader .loader_line {
-    @apply m-auto w-px h-[25rem] relative overflow-hidden before:content-[''] before:absolute before:left-0 before:w-[.1rem] before:top-1/2 before:h-[0%] before:-translate-y-1/2 before:bg-nightBlack dark:before:bg-white before:animate-lineheight after:content-[''] after:absolute after:left-0 after:w-px after:top-0 after:h-full after:bg-[#999] after:-translate-y-full;
-    transition: all 0.8s ease 0s;
-}
-.loader_line:after {
-    @apply animate-lineround;
-}
-.preloaded .loader_line:after,
-.preloaded .logo {
-    @apply opacity-0;
-}
-.preloaded .loader_line {
-    @apply opacity-0 !h-full;
-}
-.preloaded:after,
-.preloaded:before {
-    @apply animate-preloadedzero;
-}
-/*------------------------------------------------------------------
-[7. Custom Cursor Style]
-------------------------------------------------------------------*/
-.custom_cursor_one {
-    @apply max-md:hidden z-[99999];
-    transition: all 100ms ease-out;
-}
-.custom_cursor_two {
-    @apply max-md:hidden z-[99999];
-    transition: width 0.3s, height 0.3s, opacity 0.3s;
-}
+
+
 /*------------------------------------------------------------------
 [8. Template Sidebar Custom Style]
 ------------------------------------------------------------------*/
